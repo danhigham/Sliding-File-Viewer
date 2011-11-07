@@ -1,0 +1,13 @@
+<li>
+  <div class="file_viewer_slide" path="{{name}}">
+    <ul>
+      {{#children}}
+        <li class="{{node_class this}}" id="{{folder_id}}">{{node_name this}}</li>
+      {{/children}}
+    </ul>
+    
+  {{#if parent_path}}
+    <a href="#" class="file_nav_back">&lt;&lt; back</a>
+  {{/if}}
+  </div>
+</li>

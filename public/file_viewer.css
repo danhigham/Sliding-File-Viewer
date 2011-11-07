@@ -1,0 +1,8 @@
+ul, li { margin : 0; padding : 0; list-style : none;}
+
+#file_viewer, .file_viewer_slide { height : 500px; width : 300px; }
+#file_viewer { overflow : hidden; position : relative; }
+#file_viewer > ul { position : absolute; width : 8000px; }
+#file_viewer > ul > li { display : inline-block; }
+
+.file_viewer_slide { float : left; }
